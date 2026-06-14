@@ -1,0 +1,40 @@
+# ---- secrets / env ----
+.env
+.env.local
+.env.*.local
+*.env
+**/google-services.json
+**/GoogleService-Info.plist
+**/key.properties
+*.jks
+*.keystore
+
+# ---- node / next ----
+node_modules/
+.next/
+out/
+dist/
+coverage/
+*.tsbuildinfo
+.vercel/
+
+# ---- flutter / dart ----
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+**/build/
+*.iml
+.gradle/
+mobile/ios/Flutter/ephemeral/
+mobile/ios/Pods/
+
+# ---- supabase ----
+supabase/.temp/
+**/.temp/
+
+# ---- misc / os / editor ----
+.DS_Store
+*.log
+.idea/
+.vscode/
+.claude/
